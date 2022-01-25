@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.tela{
+    background-color: rgba(0, 0, 0, 0.9);
+    /* ocupa apenas o espaços de seus elementos*/
+    position: absolute;
+    /* centralizar os elementos*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+input{
+    /* aumentar o tamanho do input*/
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+button{
+    padding: 15px;
+    background-color: turquoise;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+button:hover{
+background-color: tomato;
+}
